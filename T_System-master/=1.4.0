@@ -1,0 +1,31 @@
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Requirement already satisfied: picamera in /usr/lib/python3/dist-packages (1.13)
+Collecting picamera
+  Downloading https://www.piwheels.org/simple/picamera/picamera-1.13-py3-none-any.whl (154 kB)
+  Downloading https://www.piwheels.org/simple/picamera/picamera-1.12-py3-none-any.whl (120 kB)
+Requirement already satisfied: RPi.GPIO in /usr/lib/python3/dist-packages (0.7.0)
+Collecting RPi.GPIO
+  Downloading https://www.piwheels.org/simple/rpi-gpio/RPi.GPIO-0.7.1-cp39-cp39-linux_armv7l.whl (66 kB)
+Requirement already satisfied: tinydb==3.9.0.post1 in /usr/local/lib/python3.9/dist-packages (3.9.0.post1)
+Collecting tinydb==3.9.0.post1
+  Using cached https://www.piwheels.org/simple/tinydb/tinydb-3.9.0.post1-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: numpy in /usr/lib/python3/dist-packages (1.19.5)
+Collecting numpy
+  Downloading https://www.piwheels.org/simple/numpy/numpy-1.23.5-cp39-cp39-linux_armv7l.whl (12.4 MB)
+Requirement already satisfied: paho-mqtt in /usr/local/lib/python3.9/dist-packages (1.6.1)
+Collecting paho-mqtt
+  Using cached https://www.piwheels.org/simple/paho-mqtt/paho_mqtt-1.6.1-py3-none-any.whl (75 kB)
+  Downloading https://www.piwheels.org/simple/paho-mqtt/paho_mqtt-1.6.0-py3-none-any.whl (75 kB)
+Collecting multipledispatch
+  Downloading https://www.piwheels.org/simple/multipledispatch/multipledispatch-0.6.0-py3-none-any.whl (11 kB)
+Requirement already satisfied: six in /usr/lib/python3/dist-packages (from multipledispatch) (1.16.0)
+Installing collected packages: RPi.GPIO, numpy, multipledispatch
+  Attempting uninstall: RPi.GPIO
+    Found existing installation: RPi.GPIO 0.7.0
+    Not uninstalling rpi.gpio at /usr/lib/python3/dist-packages, outside environment /usr
+    Can't uninstall 'RPi.GPIO'. No files were found to uninstall.
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.19.5
+    Not uninstalling numpy at /usr/lib/python3/dist-packages, outside environment /usr
+    Can't uninstall 'numpy'. No files were found to uninstall.
+Successfully installed RPi.GPIO-0.7.1 multipledispatch-0.6.0 numpy-1.23.5
