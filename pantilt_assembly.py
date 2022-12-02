@@ -190,7 +190,7 @@ while True:
             tilt.value = 0.1
         
         # Wait before repeating loop
-        time.sleep(delay)
+        # time.sleep(delay)
 
     # Display the image
     cv2.imshow('frame', frame)
